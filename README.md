@@ -18,5 +18,15 @@ These parameters are crucial in defining the structure and learning capability o
 To set up the AutoGAMLP tool, follow these steps:
 
 1. **Clone the Repository:**
+```python
 git clone https://github.com/yourusername/AutoMLP-GA.git
 cd AutoMLP-GA
+```
+2. **Install Python:**
+Ensure that Python (version 3.6 or higher) is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+
+3. **Install Dependencies:**
+AutoGAMLP requires PyTorch and a few other libraries. Install them using pip:
+```python
+pip install torch torchvision tqdm
+```
