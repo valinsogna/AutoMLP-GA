@@ -43,6 +43,39 @@ Execute the main script to start the evolution process:
 ```python
 python main.py
 ```
+## Composition
 
+# Network and Optimizer Class Interaction
 
+The `Network` class in `network.py` is designed to define and handle a neural network based on the parameters provided (like the number of neurons, number of layers, activation function, etc.). The `Optimizer` class in `optimizer.py` manages the evolutionary process, creating a population of these networks, breeding them, mutating them, and selecting the fittest networks over generations.
+
+## To ensure full compatibility, here's a quick recap of how they work together:
+
+### Network Initialization and Random Creation:
+- In `network.py`, the `Network` class can create a random network configuration using `create_random`.
+- In `optimizer.py`, the `create_population` method uses `Network` to create an initial population of randomly configured networks.
+
+### Breeding and Mutation:
+- The `breed` and `mutate` methods in `optimizer.py` handle the crossover and mutation of networks. After these operations, the network's structure (like layers, neurons, activation functions) is updated.
+- The `Network` class has methods (`create_set` and `create_network`) to update its structure based on these new configurations.
+
+### Fitness Evaluation:
+- The `fitness` method in `optimizer.py` evaluates networks based on their accuracy, which is set and updated in the `Network` class during training.
+
+### Training:
+- Training is handled outside of these classes, typically in a script like `train.py`, where each network is trained, and its performance (accuracy) is evaluated.
+
+## GA specifications
+### Selection
+The selection method used in the `Optimizer` class is a combination of Truncation Selection and Random Selection:
+- **Truncation Selection:** After each generation, a certain percentage of the best-performing networks (as determined by their fitness, which in this case is accuracy) are retained for the next generation. This is controlled by the `retain` attribute.
+- **Random Selection:** In addition to the top performers, there is also a chance (`random_select` probability) to select some networks that are not among the top performers. This method introduces diversity into the gene pool, preventing premature convergence to a local optimum.
+
+### Crossover
+The crossover method in `breed` function seems to implement a form of Uniform Crossover:
+- **Uniform Crossover:** In this method, for each network parameter (like the number of neurons, layers, activation functions), the child network randomly inherits the value of that parameter from either one of its two parents. This method treats each gene (parameter) independently and gives equal chance for a gene to be inherited from either parent.
+
+### Mutation
+The mutation method in the `mutate` function is a basic form of Random Mutation:
+- **Random Mutation:** Here, a network is chosen to undergo mutation with a certain probability (`mutate_chance`). When a mutation occurs, one of the network's parameters is randomly selected and then randomly altered (by picking a new value for that parameter from the available choices).
 
