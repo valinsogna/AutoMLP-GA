@@ -30,3 +30,19 @@ AutoGAMLP requires PyTorch and a few other libraries. Install them using pip:
 ```python
 pip install torch torchvision tqdm
 ```
+
+## Usage
+
+Using AutoGAMLP involves running the `main.py` script, which orchestrates the process of evolving neural networks using genetic algorithms. Here’s how to use it:
+
+1. **Configure Parameters:**
+Before running `main.py`, you might want to configure certain parameters in the script or in a separate configuration file, such as the number of generations, population size, and network parameter choices.
+
+2. **Run the Evolution Process:**
+Execute the main script to start the evolution process:
+```python
+python main.py
+```
+
+
+
