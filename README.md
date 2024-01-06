@@ -45,11 +45,9 @@ python main.py
 ```
 ## Composition
 
-# Network and Optimizer Class Interaction
-
 The `Network` class in `network.py` is designed to define and handle a neural network based on the parameters provided (like the number of neurons, number of layers, activation function, etc.). The `Optimizer` class in `optimizer.py` manages the evolutionary process, creating a population of these networks, breeding them, mutating them, and selecting the fittest networks over generations.
 
-## To ensure full compatibility, here's a quick recap of how they work together:
+### To ensure full compatibility, here's a quick recap of how they work together:
 
 ### Network Initialization and Random Creation:
 - In `network.py`, the `Network` class can create a random network configuration using `create_random`.
