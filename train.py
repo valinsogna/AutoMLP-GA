@@ -8,6 +8,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
+from torch.optim.lr_scheduler import CosineAnnealingLR, ExponentialLR, StepLR
+
 
 def get_mnist():
     """Retrieve the MNIST dataset and process the data."""
@@ -39,8 +41,28 @@ def train_and_score(network, dataset):
     model = network.model
 
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.AdamW(model.parameters())
+    
+    # Select Optimizer
+    if network.network['optimizer'] == 'adam':
+        optimizer = optim.Adam(model.parameters(), lr=network.network['initial_lr'])
+    elif network.network['optimizer'] == 'adamw':
+        optimizer = optim.AdamW(model.parameters(), lr=network.network['initial_lr'])
+    elif network.network['optimizer'] == 'sgd':
+        optimizer = optim.SGD(model.parameters(), lr=network.network['initial_lr'], momentum=0.9)
+    elif network.network['optimizer'] == 'rmsprop':
+        optimizer = optim.RMSprop(model.parameters(), lr=network.network['initial_lr'])
 
+    # Select Learning Rate Scheduler
+    if network.network['lr_scheduler'] == 'cosine':
+        scheduler = CosineAnnealingLR(optimizer, T_max=100)
+    elif network.network['lr_scheduler'] == 'exponential':
+        scheduler = ExponentialLR(optimizer, gamma=0.9)
+    elif network.network['lr_scheduler'] == 'linear':
+        scheduler = StepLR(optimizer, step_size=1, gamma=0.95)
+    else:  # 'none'
+        scheduler = None
+
+    # Training Loop
     for epoch in range(10):  # Loop over the dataset multiple times
         for _, data in enumerate(train_loader, 0):
             inputs, labels = data
@@ -50,6 +72,9 @@ def train_and_score(network, dataset):
             loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
+
+            if scheduler:
+                scheduler.step()
 
     # Test the model
     correct = 0
