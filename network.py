@@ -2,6 +2,8 @@
 import random
 import logging
 import torch.nn as nn
+from train import train_and_score
+
 
 class Network():
     """Represent a network and let us operate on it.
@@ -66,8 +68,8 @@ class Network():
         """
         if self.accuracy == 0.:
             # Implement training logic here
-            # Example: self.accuracy = train_and_score(self.model, dataset)
-            pass
+            self.accuracy = train_and_score(self.model, dataset)
+        
 
     def print_network(self):
         """Print out a network."""
