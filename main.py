@@ -2,6 +2,9 @@
 import logging
 from optimizer import Optimizer
 from tqdm import tqdm
+import matplotlib.pyplot as plt
+import os
+import datetime
 
 # Setup logging.
 logging.basicConfig(
@@ -48,6 +51,17 @@ def generate(generations, population, nn_param_choices, dataset):
         nn_param_choices (dict): Parameter choices for networks
         dataset (str): Dataset to use for training/evaluating
     """
+    # Data collection for plots
+    avg_fitness_over_generations = []
+    best_fitness_over_generations = []
+    fitness_values_each_generation = []  # For diversity plot
+    neuron_distribution = []  # Example for parameter distribution plot
+
+    # Create a unique directory to save results
+    timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    result_dir = os.path.join("results", f"run_{timestamp}")
+    os.makedirs(result_dir, exist_ok=True)
+
     optimizer = Optimizer(nn_param_choices)
     networks = optimizer.create_population(population)
 
@@ -58,12 +72,23 @@ def generate(generations, population, nn_param_choices, dataset):
         # Train and get accuracy for networks.
         train_networks(networks, dataset)
 
-        # Get the average accuracy for this generation.
+        # Record data for plots
         average_accuracy = get_average_accuracy(networks)
+        avg_fitness_over_generations.append(average_accuracy)
+
+        best_network = max(networks, key=lambda net: net.accuracy)
+        best_fitness_over_generations.append(best_network.accuracy)
 
         # Print out the average accuracy each generation.
         logging.info("Generation average: %.2f%%" % (average_accuracy * 100))
         logging.info('-'*80)
+
+        # Collect data for plots
+        avg_fitness_over_generations.append(average_accuracy)
+        best_fitness_over_generations.append(best_network.accuracy)
+        fitness_values_each_generation.append([net.accuracy for net in networks])
+        neuron_distribution.append([net.network['nb_neurons'] for net in networks])
+
 
         # Evolve, except on the last iteration.
         if i != generations - 1:
@@ -72,8 +97,38 @@ def generate(generations, population, nn_param_choices, dataset):
     # Sort our final population.
     networks = sorted(networks, key=lambda x: x.accuracy, reverse=True)
 
-    # Print out the top 5 networks.
-    print_networks(networks[:5])
+    # Print out the top 10 networks.
+    print_networks(networks[:10])
+
+    # Plot Fitness vs. Generations
+    plt.figure()
+    plt.plot(avg_fitness_over_generations, label='Average Fitness')
+    plt.plot(best_fitness_over_generations, label='Best Fitness')
+    plt.xlabel('Generations')
+    plt.ylabel('Fitness (Accuracy)')
+    plt.title('Fitness over Generations')
+    plt.legend()
+    plt.savefig(os.path.join(result_dir, 'fitness_over_generations.png'))
+
+    # Plot Diversity of Population
+    plt.figure()
+    diversity = [np.std(fitness) for fitness in fitness_values_each_generation]
+    plt.plot(diversity, label='Diversity (Std Dev of Fitness)')
+    plt.xlabel('Generations')
+    plt.ylabel('Diversity')
+    plt.title('Diversity of Population over Generations')
+    plt.legend()
+    plt.savefig(os.path.join(result_dir, 'diversity_over_generations.png'))
+
+    # Plot Parameter Distribution (e.g., Number of Neurons)
+    plt.figure()
+    for generation in neuron_distribution:
+        plt.hist(generation, alpha=0.5, label=f'Gen {generation+1}')
+    plt.xlabel('Number of Neurons')
+    plt.ylabel('Frequency')
+    plt.title('Distribution of Neurons Over Generations')
+    plt.legend()
+    plt.savefig(os.path.join(result_dir, 'neuron_distribution.png'))
 
 def print_networks(networks):
     """Print a list of networks.
