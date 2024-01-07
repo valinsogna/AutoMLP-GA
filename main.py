@@ -95,7 +95,9 @@ def main():
         'nb_neurons': [128, 256, 384, 512, 640],
         'nb_layers': [1, 2, 3, 4, 5],
         'activation': ['ReLU', 'ELU', 'Tanh', 'LeakyReLU', 'Sigmoid'],
-        'optimizer': ['adamw'],  # Using AdamW optimizer
+        'optimizer': ['adam', 'adamw', 'sgd', 'rmsprop'],
+        'lr_scheduler': ['cosine', 'exponential', 'linear', 'none'],
+        'initial_lr': [0.1, 0.01, 0.001, 0.0003, 0.0001],
     }
 
     logging.info("***Evolving %d generations with population %d***" % (generations, population))
