@@ -8,7 +8,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from torch.optim.lr_scheduler import CosineAnnealingLR, ExponentialLR, StepLR
+from torch.optim.lr_scheduler import CosineAnnealingLR, ExponentialLR, LinearLR
 
 
 def get_mnist():
@@ -58,7 +58,7 @@ def train_and_score(network, dataset):
     elif network.network['lr_scheduler'] == 'exponential':
         scheduler = ExponentialLR(optimizer, gamma=0.9)
     elif network.network['lr_scheduler'] == 'linear':
-        scheduler = StepLR(optimizer, step_size=1, gamma=0.95)
+        scheduler = LinearLR(optimizer)
     else:  # 'none'
         scheduler = None
 

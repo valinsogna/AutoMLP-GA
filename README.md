@@ -7,9 +7,9 @@ AutoMLP-GA evolves MLP architectures by tuning the following parameters:
 - **Number of Neurons:** Adjusts the number of neurons in each layer.
 - **Number of Layers:** Determines the depth of the network by varying the number of hidden layers.
 - **Activation Functions:** Experiments with different activation functions (e.g., ReLU, Tanh, Sigmoid, LeakyReLU) for each layer.
-- **Learning Rate:** Optimizes the learning rate for the training algorithm.
-- **Optimizer Type:** Selects the type of optimizer, such as Adam, SGD, etc.
-- **Learning Rate decay** 
+- **Initial Learning Rate:** Optimizes the initial learning rate for the training algorithm.
+- **Optimizer Type:** Selects the type of optimizer, such as Adam, SGD, AdamW and RMSprop.
+- **Learning Rate decay** Selects the type of learning rate decay, such as LinearLR, CosineAnnelaing and ExponentialLR.
 
 These parameters are crucial in defining the structure and learning capability of the MLPs. By evolving these aspects, AutoMLP-GA aims to discover the most effective network configurations for specific datasets and tasks.
 
