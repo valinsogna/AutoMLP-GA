@@ -19,7 +19,7 @@ log_file = os.path.join(result_dir, 'log.txt')
 logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
-    level=logging.DEBUG,
+    level=logging.INFO,
     filename=log_file
 )
 
@@ -118,7 +118,6 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
         for network in networks:
             f.write(str(network.network) + '\n')
     
-
     # Print out the top 10% networks.
     print_networks(networks[:int(len(networks)*0.1)])
 
@@ -204,25 +203,6 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     )
 
 
-    # Plot for Initial Learning Rate Distribution
-    # Count the frequency of each initial_lr value in the distribution
-    counts = {lr: initial_lr_distribution.count(lr) for lr in nn_param_choices['initial_lr']}
-    # Create lists for the bar plot
-    categories = list(counts.keys())
-    frequencies = list(counts.values())
-    # Create bar plot
-    plt.figure(figsize=(10, 5))
-    plt.bar(categories, frequencies, width=0.05)  # Set width to a suitable value for your scale
-    # Add labels and title
-    plt.xlabel('Initial Learning Rate')
-    plt.ylabel('Frequency')
-    plt.title('Distribution of Initial Learning Rates Over Generations')
-    # Replace the x-ticks with labels, rotated for better readability if necessary
-    plt.xticks(categories, [str(lr) for lr in categories], rotation=45)
-    plt.tight_layout()
-    plt.savefig(os.path.join(result_dir, 'initial_lr_distribution.png'))
-
-
     # Plot Activation Function Distribution
     plt.figure()
     for index, generation in enumerate(activation_distribution):
@@ -253,6 +233,16 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     plt.title('Distribution of Learning Rate Schedulers Over Generations')
     plt.legend()
     plt.savefig(os.path.join(result_dir, 'lr_scheduler_distribution.png'))
+
+    # Plot Initial Learning Rate Distribution
+    plt.figure()
+    for index, generation in enumerate(initial_lr_distribution):
+        plt.hist(generation, alpha=0.5, label=f'Gen {index+1}')
+    plt.xlabel('Initial Learning Rate')
+    plt.ylabel('Frequency')
+    plt.title('Distribution of Initial Learning Rates Over Generations')
+    plt.legend()
+    plt.savefig(os.path.join(result_dir, 'initial_lr_distribution.png'))
 
 
 def print_networks(networks):
