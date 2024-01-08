@@ -36,12 +36,11 @@ pip install torch torchvision tqdm mpmath matplotlib numpy sympy typing_extensio
 Using AutoGAMLP involves running the `main.py` script, which orchestrates the process of evolving neural networks using genetic algorithms. Here’s how to use it:
 
 1. **Configure Parameters:**
-Before running `main.py`, you might want to configure certain parameters in the script or in a separate configuration file, such as the number of generations, population size, and network parameter choices.
-
+Before running `main.py`, you might want to configure certain parameters like the batch size (fixed at 128) or the number of generations, population size by prompt.
 2. **Run the Evolution Process:**
 Execute the main script to start the evolution process:
 ```python
-python main.py
+python main.py --gen 10 --pop 20
 ```
 ## Composition
 
