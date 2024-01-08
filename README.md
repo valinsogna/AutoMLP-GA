@@ -23,12 +23,12 @@ git clone https://github.com/yourusername/AutoMLP-GA.git
 cd AutoMLP-GA
 ```
 2. **Install Python:**
-Ensure that Python (version 3.6 or higher) is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+Ensure that Python (version 3.9 or higher) is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
 3. **Install Dependencies:**
-AutoGAMLP requires PyTorch and a few other libraries. Install them using pip:
+AutoGAMLP requires PyTorch and a few other libraries. Install them using requirements.txt:
 ```python
-pip install torch torchvision tqdm matplotlib numpy
+pip install -r requirements.txt
 ```
 
 ## Usage

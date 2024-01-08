@@ -1,0 +1,4 @@
+01/08/2024 05:04:23 PM - INFO - Evolution in 3 generations with population 3
+01/08/2024 05:04:23 PM - INFO - ***Doing generation 1 of 3***
+01/08/2024 05:06:43 PM - INFO - Generation average: 46.61%
+01/08/2024 05:06:43 PM - INFO - --------------------------------------------------------------------------------

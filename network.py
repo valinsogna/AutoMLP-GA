@@ -8,7 +8,7 @@ from train import train_and_score
 class Network():
     """Represent a network and let us operate on it.
 
-    This is designed for a simple feedforward neural network.
+    This is designed for a simple feedforward neural network MLP.
     """
 
     def __init__(self, nn_param_choices=None):
