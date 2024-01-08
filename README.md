@@ -28,7 +28,7 @@ Ensure that Python (version 3.6 or higher) is installed on your system. You can 
 3. **Install Dependencies:**
 AutoGAMLP requires PyTorch and a few other libraries. Install them using pip:
 ```python
-pip install torch torchvision tqdm mpmath matplotlib numpy sympy typing_extensions
+pip install torch torchvision tqdm matplotlib numpy
 ```
 
 ## Usage
