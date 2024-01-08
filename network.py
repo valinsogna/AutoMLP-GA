@@ -75,6 +75,7 @@ class Network():
     def print_network(self):
         """Print out a network."""
         logging.info(self.network)
+        #print(self.network)
         logging.info("Network accuracy: %.2f%%" % (self.accuracy * 100))
 
 # Helper function to get the PyTorch activation function

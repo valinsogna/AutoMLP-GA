@@ -119,7 +119,10 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
             f.write(str(network.network) + '\n')
     
     # Print out the top 10% networks.
-    print_networks(networks[:int(len(networks)*0.1)])
+    if len(networks) < 10:
+        print_networks(networks)
+    else:
+        print_networks(networks[:int(len(networks)/10)])
 
     diversity = [np.std(fitness) for fitness in fitness_values_each_generation]
 
@@ -253,6 +256,8 @@ def print_networks(networks):
     """
     logging.info('-'*80)
     logging.info("Printing top 10% networks:")
+    #print(len(networks))
+    #print(networks)
     for network in networks:
         network.print_network()
 

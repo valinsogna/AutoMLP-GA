@@ -1,0 +1,3 @@
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01}
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01}
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1}
