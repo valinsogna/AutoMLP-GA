@@ -27,7 +27,7 @@ class Optimizer():
         self.retain = retain
         self.nn_param_choices = nn_param_choices
 
-    def create_population(self, count):
+    def create_population(self, count, debug):
         """Create a population of random networks.
 
         Args:
@@ -38,7 +38,9 @@ class Optimizer():
             (list): Population of network objects
         """
         pop = []
-        for _ in range(count):
+        for u in range(count):
+            if debug:
+                print(f"Creating network {u+1}/{count}")
             network = Network(self.nn_param_choices)
             network.create_random()
             pop.append(network)
@@ -71,6 +73,7 @@ class Optimizer():
         Returns:
             (list): Two network objects
         """
+        #print("Breeding networks")
         children = []
         for _ in range(2):
 
@@ -100,6 +103,7 @@ class Optimizer():
         Returns:
             (Network): A mutated network object
         """
+        #print("Mutating network")
         mutation = random.choice(list(self.nn_param_choices.keys()))
         network.network[mutation] = random.choice(self.nn_param_choices[mutation])
         network.create_network()  # Rebuild the network with new mutation

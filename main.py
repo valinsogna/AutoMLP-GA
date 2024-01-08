@@ -5,6 +5,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import os
 import datetime
+import numpy as np
 
 # Setup logging.
 logging.basicConfig(
@@ -14,7 +15,7 @@ logging.basicConfig(
     filename='log.txt'
 )
 
-def train_networks(networks, dataset):
+def train_networks(networks, dataset, debug=False):
     """Train each network.
 
     Args:
@@ -23,7 +24,9 @@ def train_networks(networks, dataset):
     """
     pbar = tqdm(total=len(networks))
     for network in networks:
-        network.train(dataset)
+        if debug:
+            print(f"Training network {networks.index(network)+1}/{len(networks)}")
+        network.train(dataset, debug=debug)
         pbar.update(1)
     pbar.close()
 
@@ -42,7 +45,7 @@ def get_average_accuracy(networks):
 
     return total_accuracy / len(networks)
 
-def generate(generations, population, nn_param_choices, dataset):
+def generate(generations, population, nn_param_choices, dataset, debug=False):
     """Generate a network with the genetic algorithm.
 
     Args:
@@ -63,14 +66,14 @@ def generate(generations, population, nn_param_choices, dataset):
     os.makedirs(result_dir, exist_ok=True)
 
     optimizer = Optimizer(nn_param_choices)
-    networks = optimizer.create_population(population)
+    networks = optimizer.create_population(population, debug=debug)
 
     # Evolve the generation.
     for i in range(generations):
         logging.info("***Doing generation %d of %d***" % (i + 1, generations))
 
         # Train and get accuracy for networks.
-        train_networks(networks, dataset)
+        train_networks(networks, dataset, debug=debug)
 
         # Record data for plots
         average_accuracy = get_average_accuracy(networks)
@@ -97,8 +100,8 @@ def generate(generations, population, nn_param_choices, dataset):
     # Sort our final population.
     networks = sorted(networks, key=lambda x: x.accuracy, reverse=True)
 
-    # Print out the top 10 networks.
-    print_networks(networks[:10])
+    # Print out the top 20% networks.
+    print_networks(networks[:int(len(networks)*0.2)])
 
     # Plot Fitness vs. Generations
     plt.figure()
@@ -137,6 +140,7 @@ def print_networks(networks):
         networks (list): The population of networks
     """
     logging.info('-'*80)
+    logging.info("Printing top 20% networks:")
     for network in networks:
         network.print_network()
 
@@ -147,8 +151,8 @@ def main():
     dataset = 'mnist'  # Use MNIST dataset
 
     nn_param_choices = {
-        'nb_neurons': [128, 256, 384, 512, 640],
-        'nb_layers': [1, 2, 3, 4, 5],
+        'nb_neurons': [128, 256, 384, 512, 640, 768, 896, 1024],
+        'nb_layers': [1, 2, 3, 4, 5, 6],
         'activation': ['ReLU', 'ELU', 'Tanh', 'LeakyReLU', 'Sigmoid'],
         'optimizer': ['adam', 'adamw', 'sgd', 'rmsprop'],
         'lr_scheduler': ['cosine', 'exponential', 'linear', 'none'],
@@ -157,7 +161,7 @@ def main():
 
     logging.info("***Evolving %d generations with population %d***" % (generations, population))
 
-    generate(generations, population, nn_param_choices, dataset)
+    generate(generations, population, nn_param_choices, dataset, debug=False)
 
 if __name__ == '__main__':
     main()

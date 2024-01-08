@@ -19,11 +19,11 @@ def get_mnist():
     ])
     train_set = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
     test_set = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
-    train_loader = DataLoader(train_set, batch_size=128, shuffle=True)
+    train_loader = DataLoader(train_set, batch_size=128, shuffle=True)#drop_last=False
     test_loader = DataLoader(test_set, batch_size=128, shuffle=False)
     return train_loader, test_loader
 
-def train_and_score(network, dataset):
+def train_and_score(network, dataset, debug=False):
     """Train the model, return test accuracy.
 
     Args:
@@ -62,10 +62,23 @@ def train_and_score(network, dataset):
     else:  # 'none'
         scheduler = None
 
+    if debug:
+        print("Network specifications:")
+        print("Scheduler:", scheduler)
+        print("Optimizer:", optimizer)
+        print("Initial LR:", network.network['initial_lr'])
+        print("Network:", network.network)
+        print("Model:", model)
+
     # Training Loop
     for epoch in range(10):  # Loop over the dataset multiple times
+        if debug:
+            print(f"Epoch {epoch+1}/10")
         for _, data in enumerate(train_loader, 0):
+            if debug:
+                print(f"Batch {_+1}/{len(train_loader)}")
             inputs, labels = data
+            inputs = inputs.view(inputs.size(0), -1)  # Flatten the images
             optimizer.zero_grad()
 
             outputs = model(inputs)
@@ -82,7 +95,7 @@ def train_and_score(network, dataset):
     with torch.no_grad():
         for data in test_loader:
             images, labels = data
-            outputs = model(images)
+            outputs = model(images.view(images.size(0), -1))
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()

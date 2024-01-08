@@ -16,7 +16,7 @@ class Network():
 
         Args:
             nn_param_choices (dict): Parameters for the network, includes:
-                nb_neurons (list): [64, 128, 256, 512, 768, 1024]
+                nb_neurons (list): [128, 256, 512, 768, 1024]
                 nb_layers (list): [1, 2, 3, 4]
                 activation (list): ['ReLU', 'ELU', 'Tanh']
                 optimizer (list): ['adamw']
@@ -24,6 +24,7 @@ class Network():
         self.accuracy = 0.
         self.nn_param_choices = nn_param_choices
         self.network = {}  # (dict): represents MLP network parameters
+        self.model = None
 
     def create_random(self):
         """Create a random network."""
@@ -57,7 +58,7 @@ class Network():
 
         self.model = nn.Sequential(*layers)
 
-    def train(self, dataset):
+    def train(self, dataset, debug=False):
         """Train the network and record the accuracy.
 
         Args:
@@ -68,7 +69,7 @@ class Network():
         """
         if self.accuracy == 0.:
             # Implement training logic here
-            self.accuracy = train_and_score(self.model, dataset)
+            self.accuracy = train_and_score(self, dataset, debug=debug)
         
 
     def print_network(self):
@@ -80,3 +81,14 @@ class Network():
 def get_activation(name):
     return getattr(nn, name)
 
+class DebugLayer(nn.Module):
+    def __init__(self, layer, name=""):
+        super().__init__()
+        self.layer = layer
+        self.name = name
+
+    def forward(self, x):
+        print(f"Input shape to {self.name}: {x.shape}")
+        x = self.layer(x)
+        print(f"Output shape from {self.name}: {x.shape}")
+        return x
