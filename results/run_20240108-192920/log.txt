@@ -1,0 +1,2 @@
+01/08/2024 07:29:20 PM - INFO - Evolution in 10 generations with population 50
+01/08/2024 07:29:20 PM - INFO - ***Doing generation 1 of 10***

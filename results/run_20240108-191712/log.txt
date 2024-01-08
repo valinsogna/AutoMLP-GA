@@ -1,0 +1,15 @@
+01/08/2024 07:17:12 PM - INFO - Evolution in 2 generations with population 3
+01/08/2024 07:17:12 PM - INFO - ***Doing generation 1 of 2***
+01/08/2024 07:19:12 PM - INFO - Generation average: 59.24%
+01/08/2024 07:19:12 PM - INFO - --------------------------------------------------------------------------------
+01/08/2024 07:19:12 PM - INFO - ***Doing generation 2 of 2***
+01/08/2024 07:19:12 PM - INFO - Generation average: 59.24%
+01/08/2024 07:19:12 PM - INFO - --------------------------------------------------------------------------------
+01/08/2024 07:19:12 PM - INFO - --------------------------------------------------------------------------------
+01/08/2024 07:19:12 PM - INFO - Printing top 10% networks:
+01/08/2024 07:19:12 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01}
+01/08/2024 07:19:12 PM - INFO - Network accuracy: 95.68%
+01/08/2024 07:19:12 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001}
+01/08/2024 07:19:12 PM - INFO - Network accuracy: 64.87%
+01/08/2024 07:19:12 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001}
+01/08/2024 07:19:12 PM - INFO - Network accuracy: 17.18%
