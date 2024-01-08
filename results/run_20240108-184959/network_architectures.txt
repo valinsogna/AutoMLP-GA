@@ -1,0 +1,3 @@
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003}
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1}
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1}
