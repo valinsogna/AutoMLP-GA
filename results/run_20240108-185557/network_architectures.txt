@@ -1,3 +1,0 @@
-{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01}
-{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01}
-{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01}

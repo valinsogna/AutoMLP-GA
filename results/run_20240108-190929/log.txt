@@ -1,2 +1,0 @@
-01/08/2024 07:09:29 PM - INFO - Evolution in 1 generations with population 2
-01/08/2024 07:09:29 PM - INFO - ***Doing generation 1 of 1***
