@@ -10,6 +10,8 @@ AutoMLP-GA evolves MLP architectures by tuning the following parameters:
 - **Initial Learning Rate:** Optimizes the initial learning rate for the training algorithm.
 - **Optimizer Type:** Selects the type of optimizer, such as Adam, SGD, AdamW and RMSprop.
 - **Learning Rate decay** Selects the type of learning rate decay, such as LinearLR, CosineAnnelaing and ExponentialLR.
+- **Batch Size:** Determines the batch size for training the network (32, 64, 128, 256).
+- **Dropout:** Determines the dropout rate for the network (0.0, 0.1, 0.2, 0.3, 0.4).
 
 These parameters are crucial in defining the structure and learning capability of the MLPs. By evolving these aspects, AutoMLP-GA aims to discover the most effective network configurations for specific datasets and tasks.
 
