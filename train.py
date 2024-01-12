@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader
 from torch.optim.lr_scheduler import CosineAnnealingLR, ExponentialLR, LinearLR
 
 
-def get_mnist():
+def get_mnist(batch_size=128):
     """Retrieve the MNIST dataset and process the data."""
     transform = transforms.Compose([
         transforms.ToTensor(),
@@ -19,8 +19,8 @@ def get_mnist():
     ])
     train_set = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
     test_set = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
-    train_loader = DataLoader(train_set, batch_size=128, shuffle=True)#drop_last=False
-    test_loader = DataLoader(test_set, batch_size=128, shuffle=False)
+    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)#drop_last=False
+    test_loader = DataLoader(test_set, batch_size=batch_size, shuffle=False)
     return train_loader, test_loader
 
 def train_and_score(network, dataset, debug=False):
@@ -36,7 +36,7 @@ def train_and_score(network, dataset, debug=False):
     if dataset != 'mnist':
         raise ValueError("Only 'mnist' dataset is supported.")
 
-    train_loader, test_loader = get_mnist()
+    train_loader, test_loader = get_mnist(network.network['batch_size'])
 
     model = network.model
 

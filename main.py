@@ -170,6 +170,8 @@ def main():
         'optimizer': ['adam', 'adamw', 'sgd', 'rmsprop'],
         'lr_scheduler': ['cosine', 'exponential', 'linear', 'none'],
         'initial_lr': [0.1, 0.01, 0.001, 0.0003, 0.0001],
+        'batch_size': [32, 64, 128, 256],
+        'dropout': [0, 0.1, 0.2, 0.3, 0.4]
     }
 
     logging.info("Evolution in %d generations with population %d" % (generations, population))
