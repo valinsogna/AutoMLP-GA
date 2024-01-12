@@ -8,6 +8,7 @@ import datetime
 import numpy as np
 import argparse
 import pickle
+from utils import save_and_plot_results
 
 # Create a unique directory to save results
 timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -104,8 +105,6 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
         lr_scheduler_distribution.append([net.network['lr_scheduler'] for net in networks])
         initial_lr_distribution.append([net.network['initial_lr'] for net in networks])
 
-
-
         # Evolve, except on the last iteration.
         if i != generations - 1:
             networks = optimizer.evolve(networks)
@@ -113,10 +112,23 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     # Sort our final population.
     networks = sorted(networks, key=lambda x: x.accuracy, reverse=True)
 
-    # Save network architectures to file in txt
-    with open(os.path.join(result_dir, 'network_architectures.txt'), 'w') as f:
-        for network in networks:
-            f.write(str(network.network) + '\n')
+    diversity = [np.std(fitness) for fitness in fitness_values_each_generation]
+
+    distributions = {
+        'avg_fitness_over_generations': avg_fitness_over_generations,
+        'best_fitness_over_generations': best_fitness_over_generations,
+        'fitness_values_each_generation': fitness_values_each_generation,
+        'diversity': diversity,
+        'neuron_distribution': neuron_distribution,
+        'layer_distribution': layer_distribution,
+        'activation_distribution': activation_distribution,
+        'optimizer_distribution': optimizer_distribution,
+        'lr_scheduler_distribution': lr_scheduler_distribution,
+        'initial_lr_distribution': initial_lr_distribution
+    }
+
+    # External function to save results and plot distributions
+    save_and_plot_results(networks, distributions, result_dir, generations)
     
     # Print out the top 10% networks.
     if len(networks) < 10:
@@ -124,128 +136,6 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     else:
         print_networks(networks[:int(len(networks)/10)])
 
-    diversity = [np.std(fitness) for fitness in fitness_values_each_generation]
-
-    # Save results to file in pickle format
-    with open(os.path.join(result_dir, 'avg_fitness_over_generations.pkl'), 'wb') as f:
-        pickle.dump(avg_fitness_over_generations, f)
-
-    with open(os.path.join(result_dir, 'best_fitness_over_generations.pkl'), 'wb') as f:
-        pickle.dump(best_fitness_over_generations, f)
-
-    with open(os.path.join(result_dir, 'fitness_values_each_generation.pkl'), 'wb') as f:
-        pickle.dump(fitness_values_each_generation, f)
-
-    with open(os.path.join(result_dir, 'neuron_distribution.pkl'), 'wb') as f:
-        pickle.dump(neuron_distribution, f)
-
-    with open(os.path.join(result_dir, 'layer_distribution.pkl'), 'wb') as f:
-        pickle.dump(layer_distribution, f)
-
-    with open(os.path.join(result_dir, 'activation_distribution.pkl'), 'wb') as f:
-        pickle.dump(activation_distribution, f)
-
-    with open(os.path.join(result_dir, 'optimizer_distribution.pkl'), 'wb') as f:
-        pickle.dump(optimizer_distribution, f)
-
-    with open(os.path.join(result_dir, 'lr_scheduler_distribution.pkl'), 'wb') as f:
-        pickle.dump(lr_scheduler_distribution, f)
-
-    with open(os.path.join(result_dir, 'initial_lr_distribution.pkl'), 'wb') as f:
-        pickle.dump(initial_lr_distribution, f)
-
-
-    # Create bins for histograms
-    neuron_bins = create_bins(networks[0].nn_param_choices['nb_neurons'])
-    layer_bins = create_bins(networks[0].nn_param_choices['nb_layers'])
-    initial_lr_bins = create_bins(networks[0].nn_param_choices['initial_lr'] , bin_width=0.0001) 
-
-    # Plot Fitness vs. Generations
-    plt.figure(figsize=(10, 5))
-    plt.scatter(range(1, generations + 1), avg_fitness_over_generations, label='Average Fitness')
-    plt.plot(range(1, generations + 1), avg_fitness_over_generations)
-    plt.scatter(range(1, generations + 1), best_fitness_over_generations, label='Best Fitness')
-    plt.plot(range(1, generations + 1), best_fitness_over_generations)
-    plt.xticks(range(1, generations + 1))  # Set x-axis ticks starting from 1
-    plt.xlabel('Generations')
-    plt.ylabel('Fitness (Accuracy)')
-    plt.title('Fitness over Generations')
-    plt.legend()
-    plt.savefig(os.path.join(result_dir, 'fitness_over_generations.png'))
-
-    # Plot Diversity of Population
-    plt.figure(figsize=(10, 5))
-    plt.scatter(range(1, generations + 1), diversity, label='Diversity (Std Dev of Fitness)')
-    plt.plot(range(1, generations + 1), diversity)
-    plt.xticks(range(1, generations + 1))  # Set x-axis ticks starting from 1
-    plt.xlabel('Generations')
-    plt.ylabel('Diversity')
-    plt.title('Diversity of Population over Generations')
-    plt.legend()
-    plt.savefig(os.path.join(result_dir, 'diversity_over_generations.png'))
-
-    # Plot for Neuron Distribution
-    plot_histogram(
-        distributions=neuron_distribution,
-        bins=neuron_bins,
-        title='Distribution of Neurons Over Generations',
-        xlabel='Number of Neurons',
-        ylabel='Frequency',
-        filename=os.path.join(result_dir, 'neuron_distribution.png')
-
-    )
-
-    # Plot for Layer Distribution
-    plot_histogram(
-        distributions=layer_distribution,
-        bins=layer_bins,
-        title='Distribution of Layers Over Generations',
-        xlabel='Number of Layers',
-        ylabel='Frequency',
-        filename=os.path.join(result_dir, 'layer_distribution.png')
-    )
-
-
-    # Plot Activation Function Distribution
-    plt.figure()
-    for index, generation in enumerate(activation_distribution):
-        plt.hist(generation, alpha=0.5, label=f'Gen {index+1}')
-    plt.xlabel('Activation Function')
-    plt.ylabel('Frequency')
-    plt.title('Distribution of Activation Functions Over Generations')
-    plt.legend()
-    plt.savefig(os.path.join(result_dir, 'activation_distribution.png'))
-    
-
-    # Plot Optimizer Distribution
-    plt.figure()
-    for index, generation in enumerate(optimizer_distribution):
-        plt.hist(generation, alpha=0.5, label=f'Gen {index+1}')
-    plt.xlabel('Optimizer')
-    plt.ylabel('Frequency')
-    plt.title('Distribution of Optimizers Over Generations')
-    plt.legend()
-    plt.savefig(os.path.join(result_dir, 'optimizer_distribution.png'))
-
-    # Plot Learning Rate Scheduler Distribution
-    plt.figure()
-    for index, generation in enumerate(lr_scheduler_distribution):
-        plt.hist(generation, alpha=0.5, label=f'Gen {index+1}')
-    plt.xlabel('Learning Rate Scheduler')
-    plt.ylabel('Frequency')
-    plt.title('Distribution of Learning Rate Schedulers Over Generations')
-    plt.legend()
-    plt.savefig(os.path.join(result_dir, 'lr_scheduler_distribution.png'))
-
-    # Plot Initial Learning Rate Distribution
-    plt.figure()
-    for index, generation in enumerate(initial_lr_distribution):
-        plt.hist(generation, alpha=0.5, label=f'Gen {index+1}')
-    plt.xlabel('Initial Learning Rate')
-    plt.ylabel('Frequency')
-    plt.title('Distribution of Initial Learning Rates Over Generations')
-    plt.legend()
-    plt.savefig(os.path.join(result_dir, 'initial_lr_distribution.png'))
 
 
 def print_networks(networks):
@@ -286,28 +176,6 @@ def main():
 
     generate(generations, population, nn_param_choices, dataset, debug=False)
 
-# Function to create bins centered around the given values
-def create_bins(centers, bin_width=None):
-    if bin_width is not None:  # For initial learning rate or any other fixed width requirement
-        bins = np.array(centers) - bin_width/2
-        return np.append(bins, bins[-1] + bin_width)
-    else:  # For neurons and layers where the bin width is not fixed
-        bins = []
-        for i in range(len(centers)-1):
-            bins.append((centers[i] + centers[i+1]) / 2)
-        return [centers[0] - (bins[0] - centers[0])] + bins + [centers[-1] + (centers[-1] - bins[-1])]
-
-# Function to plot histogram with appropriate bins
-def plot_histogram(distributions, bins, title, xlabel, ylabel, filename):
-    plt.figure(figsize=(10, 5))
-    for i, distribution in enumerate(distributions):
-        plt.hist(distribution, bins=bins, alpha=0.5, label=f'Gen {i+1}')
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
-    plt.title(title)
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig(filename)
 
 if __name__ == '__main__':
     main()
