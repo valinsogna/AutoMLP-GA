@@ -50,7 +50,7 @@ class Network():
         for i in range(self.network['nb_layers']):
             layers.append(nn.Linear(input_size, self.network['nb_neurons']))
             layers.append(getattr(nn, self.network['activation'])())
-            layers.append(nn.Dropout(0.2))  # Fixed dropout value
+            layers.append(nn.Dropout(self.network['dropout']))  # Fixed dropout value
             input_size = self.network['nb_neurons']
 
         # Output layer

@@ -113,10 +113,12 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     # Sort our final population.
     networks = sorted(networks, key=lambda x: x.accuracy, reverse=True)
 
-    # Save network architectures to file in txt
+    # Save network architectures to file in txt followd by the fitness value
     with open(os.path.join(result_dir, 'network_architectures.txt'), 'w') as f:
         for network in networks:
             f.write(str(network.network) + '\n')
+            f.write(str(network.accuracy) + '\n')
+            f.write('-'*80 + '\n')
     
     # Print out the top 10% networks.
     if len(networks) < 10:
@@ -280,6 +282,8 @@ def main():
         'optimizer': ['adam', 'adamw', 'sgd', 'rmsprop'],
         'lr_scheduler': ['cosine', 'exponential', 'linear', 'none'],
         'initial_lr': [0.1, 0.01, 0.001, 0.0003, 0.0001],
+        'batch_size': [32, 64, 128, 256],
+        'dropout': [0, 0.1, 0.2, 0.3, 0.4]
     }
 
     logging.info("Evolution in %d generations with population %d" % (generations, population))
