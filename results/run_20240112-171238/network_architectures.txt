@@ -1,6 +1,0 @@
-{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001}
-0.5865
---------------------------------------------------------------------------------
-{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1}
-0.5611
---------------------------------------------------------------------------------
