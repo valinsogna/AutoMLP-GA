@@ -93,13 +93,12 @@ def generate_random_networks(num_networks, nn_param_choices):
             'dropout_distribution': [dropout_distribution],
             'batch_size_distribution': [batch_size_distribution]
         }
-        save_and_plot_results(networks, distributions, result_dir, 1)  # '1' for a single generation
 
-    return networks
+    return networks, distributions
 
 def main():
     parser = argparse.ArgumentParser(description='Train a set of random networks.')
-    parser.add_argument('--num_networks', type=int, required=True, help='Number of networks to generate and train.')
+    parser.add_argument('--n', type=int, required=True, help='Number of networks to generate and train.')
     parser.add_argument('--dataset', type=str, default='mnist', help='Dataset to use for training.')
     args = parser.parse_args()
 
@@ -114,11 +113,13 @@ def main():
         'dropout': [0, 0.1, 0.2, 0.3, 0.4]
     }
 
-    networks = generate_random_networks(args.num_networks, nn_param_choices)
+    networks, distributions = generate_random_networks(args.n, nn_param_choices)
 
     train_networks(networks, args.dataset)
 
     print_networks(networks)
+
+    save_and_plot_results(networks, distributions, result_dir, 1)  # '1' for a single generation
 
 
 if __name__ == '__main__':

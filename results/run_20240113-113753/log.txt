@@ -1,0 +1,6 @@
+01/13/2024 11:40:05 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 11:40:05 AM - INFO - Printing top 10% networks:
+01/13/2024 11:40:05 AM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/13/2024 11:40:05 AM - INFO - Network accuracy: 97.76%
+01/13/2024 11:40:05 AM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+01/13/2024 11:40:05 AM - INFO - Network accuracy: 97.78%
