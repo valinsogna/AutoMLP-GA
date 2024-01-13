@@ -1,0 +1,44 @@
+01/13/2024 01:24:49 AM - INFO - Evolution in 7 generations with population 100
+01/13/2024 01:24:49 AM - INFO - ***Doing generation 1 of 7***
+01/13/2024 03:02:28 AM - INFO - Generation average: 64.58%
+01/13/2024 03:02:28 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 03:02:29 AM - INFO - ***Doing generation 2 of 7***
+01/13/2024 03:50:19 AM - INFO - Generation average: 91.36%
+01/13/2024 03:50:19 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 03:50:19 AM - INFO - ***Doing generation 3 of 7***
+01/13/2024 04:43:04 AM - INFO - Generation average: 95.39%
+01/13/2024 04:43:04 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 04:43:04 AM - INFO - ***Doing generation 4 of 7***
+01/13/2024 05:47:37 AM - INFO - Generation average: 95.13%
+01/13/2024 05:47:37 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 05:47:38 AM - INFO - ***Doing generation 5 of 7***
+01/13/2024 06:49:47 AM - INFO - Generation average: 93.82%
+01/13/2024 06:49:47 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 06:49:48 AM - INFO - ***Doing generation 6 of 7***
+01/13/2024 08:14:28 AM - INFO - Generation average: 95.10%
+01/13/2024 08:14:28 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 08:14:28 AM - INFO - ***Doing generation 7 of 7***
+01/13/2024 09:22:59 AM - INFO - Generation average: 97.63%
+01/13/2024 09:22:59 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 09:23:00 AM - INFO - --------------------------------------------------------------------------------
+01/13/2024 09:23:00 AM - INFO - Printing top 10% networks:
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.26%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.23%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.22%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.20%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.14%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.09%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.07%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.06%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.06%
+01/13/2024 09:23:00 AM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/13/2024 09:23:00 AM - INFO - Network accuracy: 98.06%

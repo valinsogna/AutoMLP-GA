@@ -73,6 +73,8 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     optimizer_distribution = []  # parameter distribution plot
     lr_scheduler_distribution = []  # parameter distribution plot
     initial_lr_distribution = []  # parameter distribution plot
+    dropout_distribution = []  # parameter distribution plot
+    batch_size_distribution = []  # parameter distribution plot
 
     optimizer = Optimizer(nn_param_choices)
     networks = optimizer.create_population(population, debug=debug)
@@ -104,6 +106,8 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
         optimizer_distribution.append([net.network['optimizer'] for net in networks])
         lr_scheduler_distribution.append([net.network['lr_scheduler'] for net in networks])
         initial_lr_distribution.append([net.network['initial_lr'] for net in networks])
+        dropout_distribution.append([net.network['dropout'] for net in networks])
+        batch_size_distribution.append([net.network['batch_size'] for net in networks])
 
         # Evolve, except on the last iteration.
         if i != generations - 1:
@@ -124,7 +128,9 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
         'activation_distribution': activation_distribution,
         'optimizer_distribution': optimizer_distribution,
         'lr_scheduler_distribution': lr_scheduler_distribution,
-        'initial_lr_distribution': initial_lr_distribution
+        'initial_lr_distribution': initial_lr_distribution,
+        'dropout_distribution': dropout_distribution,
+        'batch_size_distribution': batch_size_distribution
     }
 
     # External function to save results and plot distributions
