@@ -142,8 +142,6 @@ def generate(generations, population, nn_param_choices, dataset, debug=False):
     else:
         print_networks(networks[:int(len(networks)/10)])
 
-
-
 def print_networks(networks):
     """Print a list of networks.
 
