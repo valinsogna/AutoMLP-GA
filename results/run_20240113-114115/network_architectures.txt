@@ -1,0 +1,2100 @@
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9669
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.1109
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9534
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.1148
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+0.7867
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.1333
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.1025
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.9644
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.9718
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+0.3035
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.9559
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.4663
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.8788
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.1013
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.9658
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.7756
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.1196
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.8099
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.2957
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.9509
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.887
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.9417
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.9598
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.9712
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.9596
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.9576
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.9629
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.9343
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+0.7882
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+0.0892
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.3}
+0.1094
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.9694
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9701
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.2073
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+0.7418
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.4475
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.3902
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.0892
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+0.9057
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9791
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.9443
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.9752
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+0.1052
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.8566
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+0.974
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.9092
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.1
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.1674
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.0901
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.0979
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.0938
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.9124
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.8552
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.9544
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.9774
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.1041
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+0.9728
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.4672
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.953
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.9696
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.2}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+0.9273
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+0.8272
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.902
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.9697
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9666
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.102
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.9367
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.9684
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.1761
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.9699
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.8066
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.9386
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.9432
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+0.9292
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.9704
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9259
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.6775
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+0.9617
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.7889
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.1044
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.9514
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+0.7747
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+0.097
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.0973
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.9304
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.0957
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.1696
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+0.2742
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.7198
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.1136
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+0.957
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.9579
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.3773
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+0.7515
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9802
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9749
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+0.9111
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+0.9676
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.9518
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.9778
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.2937
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.5861
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.9679
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.4879
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.9664
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+0.9629
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.8418
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+0.9544
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.9694
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.1032
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.9718
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.1017
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.921
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.7745
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.1083
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.0952
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.9688
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.4958
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.9597
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.9225
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.1032
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+0.154
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.9518
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+0.1008
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9825
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.5405
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.5362
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.9711
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.9468
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.9793
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.954
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.9654
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.2}
+0.9425
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+0.8822
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.9734
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.1103
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.9487
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+0.0974
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.769
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.9574
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.9605
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+0.97
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.2672
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.9276
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+0.9253
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.9622
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.8561
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.7396
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.1494
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.5133
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.9766
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.9053
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.8081
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.9674
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.9389
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.9765
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+0.453
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+0.5192
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.7569
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+0.9462
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.0996
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.4324
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.4384
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.962
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+0.1108
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9727
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+0.9786
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.907
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.9727
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.0992
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+0.9672
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.1389
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.9183
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.1278
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.102
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.8833
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9686
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.6867
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.2}
+0.9719
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+0.9751
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.1011
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+0.1133
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.97
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+0.8958
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.1471
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.9557
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9674
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+0.2289
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.0992
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.7867
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9758
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.833
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+0.1022
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+0.093
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.9463
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+0.9515
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.0984
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.9414
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.3859
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+0.1039
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.93
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.9351
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.1006
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+0.9628
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+0.881
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+0.9738
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.9483
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.8971
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+0.9765
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.4802
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+0.8252
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.9668
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+0.8677
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9156
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.6111
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.1599
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.9707
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.9302
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.1113
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.967
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.1}
+0.0965
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+0.8245
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.759
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.1086
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.9653
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.081
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.9553
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+0.9732
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+0.1292
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.9514
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.1106
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.9741
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.1038
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+0.5913
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.9656
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+0.9676
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+0.1007
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.8837
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.9709
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.108
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+0.112
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+0.8701
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.972
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.3997
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.7405
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.0994
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.9736
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+0.9757
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+0.8287
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+0.6794
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.1011
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.8958
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.1099
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.965
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.9344
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.5698
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+0.9683
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.1024
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.8242
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.0971
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+0.0958
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.3}
+0.9515
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+0.9728
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.9452
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.1008
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.9776
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.3}
+0.1673
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+0.6067
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.9508
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.947
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.9256
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.0996
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.7922
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+0.3334
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.5243
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+0.0974
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.9365
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+0.106
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.9475
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.8446
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.9739
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.3}
+0.9076
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.9718
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.2736
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+0.9689
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+0.9369
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+0.9067
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.1043
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.9273
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+0.0965
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.0964
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.9655
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.9307
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.931
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.9704
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.9664
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.1377
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.8659
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.9624
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.9486
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.9781
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.1058
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+0.9711
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.0986
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+0.4129
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+0.1013
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+0.106
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.5552
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+0.9512
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+0.0901
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.9421
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.1
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9366
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+0.1145
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9564
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.1034
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+0.2932
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.1054
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.6091
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+0.9663
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.2}
+0.7846
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.9283
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+0.9673
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.1}
+0.1026
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.1525
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.1032
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.0925
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+0.0983
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.5711
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.0978
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.9094
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.9698
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.975
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.1963
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.9583
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+0.6697
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.9694
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.947
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.9329
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.8714
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.9144
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.0931
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.7591
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.8227
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.9175
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.9257
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.1651
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.9634
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.9445
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.4249
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.1237
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+0.1026
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.9243
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.9273
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+0.7606
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+0.9764
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.8166
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.7128
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.9763
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+0.9667
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.9756
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+0.9708
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.6003
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+0.6825
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+0.3803
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+0.5043
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.6575
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.9718
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.1177
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.8193
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.8835
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.9625
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.879
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.964
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.9336
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.1048
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.249
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.595
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.1017
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.9729
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.6802
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.9779
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.9727
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.7903
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.9609
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.5453
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+0.0958
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+0.8984
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+0.2187
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+0.8473
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.9597
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+0.9536
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.6399
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.9707
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.9485
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.9376
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.9608
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.3451
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.9601
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.7315
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+0.9705
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.9774
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+0.1051
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.8742
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+0.9637
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.0994
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.2542
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.9471
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9802
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.9667
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+0.8977
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.9228
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+0.8455
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9764
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.9671
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+0.1184
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.9605
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.7919
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+0.6674
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.1}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.5278
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.2}
+0.2943
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+0.3574
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.1407
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.9528
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.0945
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.9641
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.1}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.9207
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.0978
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.9478
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.3786
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.9514
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.1}
+0.859
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.6946
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+0.9691
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.2089
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.0983
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.8786
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9507
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.1008
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+0.9651
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+0.9725
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9795
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.9617
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+0.1056
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+0.8203
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+0.964
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.0892
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.9265
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.1021
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.2214
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9599
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.8877
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.9689
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+0.9611
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.9512
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+0.1007
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.9787
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9448
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.1033
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.354
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.9606
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+0.972
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.8027
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.0989
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.5677
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.3}
+0.9024
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+0.9668
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.1}
+0.9792
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.9766
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+0.9529
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.1089
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.976
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.0958
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+0.7973
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.4851
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.9637
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.4307
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.8955
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+0.9719
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+0.2072
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.097
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.9406
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.2419
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.9464
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.1001
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+0.6971
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.0982
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+0.4997
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.1136
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.8679
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+0.0978
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.927
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.8718
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.098
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.7878
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.0884
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.8896
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+0.9139
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0}
+0.9699
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+0.3046
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+0.6303
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.8888
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+0.1137
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+0.1019
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.3857
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+0.4511
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.9574
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+0.9041
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+0.948
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+0.9612
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.9639
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.0943
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.9662
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+0.9701
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+0.6587
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.1069
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.9552
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.5405
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.902
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9639
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.2103
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9347
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.9326
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.1032
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+0.1318
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.941
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.9446
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+0.1442
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+0.1192
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.1}
+0.9732
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.9803
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.7576
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.8349
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.6303
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.0988
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+0.9675
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.1258
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.5565
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+0.9089
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+0.0981
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+0.9539
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.9558
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.1008
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.1022
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.2615
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.1}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.9472
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+0.9709
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+0.6151
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.104
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.959
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.1024
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+0.972
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.925
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+0.9478
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.8003
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9552
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+0.3505
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+0.0908
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.1
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9627
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.1052
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.9043
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.922
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.7271
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.9753
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+0.9574
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.0984
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.9639
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+0.1023
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+0.7219
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+0.4318
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.8554
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.6245
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.2368
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+0.1038
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+0.9747
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.0998
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+0.7924
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+0.9095
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+0.1104
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.4231
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.7094
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+0.9642
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.9114
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+0.9681
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.7806
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+0.8922
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+0.9659
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+0.9793
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.116
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.9781
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.9227
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.3}
+0.9672
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+0.1057
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.1079
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+0.9362
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+0.9224
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+0.9335
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+0.0967
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+0.9334
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.979
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+0.1009
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+0.2672
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+0.9649
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+0.406
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+0.101
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9346
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.0909
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.1996
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.7027
+--------------------------------------------------------------------------------
+{'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+0.8766
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+0.9546
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+0.9727
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+0.6352
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.1048
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+0.9741
+--------------------------------------------------------------------------------
+{'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+0.6943
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+0.0999
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+0.8667
+--------------------------------------------------------------------------------
+{'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+0.9599
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+0.9546
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+0.9682
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+0.7916
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+0.1007
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+0.9623
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+0.0972
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+0.1028
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+0.9561
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+0.1135
+--------------------------------------------------------------------------------
+{'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.2}
+0.9648
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+0.1062
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+0.1007
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+0.3281
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.1}
+0.6411
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+0.9607
+--------------------------------------------------------------------------------
+{'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+0.9752
+--------------------------------------------------------------------------------
+{'nb_neurons': 768, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+0.7975
+--------------------------------------------------------------------------------
+{'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+0.4065
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+0.9771
+--------------------------------------------------------------------------------
+{'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+0.9552
+--------------------------------------------------------------------------------

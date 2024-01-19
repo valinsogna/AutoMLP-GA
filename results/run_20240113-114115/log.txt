@@ -1,0 +1,1402 @@
+01/14/2024 01:29:21 PM - INFO - --------------------------------------------------------------------------------
+01/14/2024 01:29:21 PM - INFO - Printing top 10% networks:
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.69%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.34%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.48%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 13.33%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.44%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 30.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.59%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 46.63%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.88%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.13%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 77.56%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 80.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 29.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.17%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.98%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.12%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.29%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 8.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 20.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 74.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 44.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 39.02%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 8.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.91%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 85.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.00%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 16.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.38%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 85.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.44%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.41%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 46.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.30%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.97%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 17.61%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 80.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.04%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.59%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 67.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.17%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.44%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 77.47%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.04%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 16.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 27.42%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 71.98%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.36%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 37.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 75.15%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 98.02%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.49%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 29.37%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 58.61%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 48.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.29%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 84.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.44%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.17%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 77.45%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.88%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 49.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.97%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 15.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 98.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 54.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 53.62%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.68%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.93%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.54%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.22%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.34%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.87%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 76.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.00%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 26.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.53%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.22%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 85.61%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 73.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 14.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 51.33%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.53%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 80.81%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 45.30%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 51.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 75.69%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.62%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 43.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 43.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 13.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 12.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.33%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 68.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.19%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.33%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.00%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 14.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 22.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 83.30%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.22%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.30%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.63%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.15%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 38.59%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.00%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.06%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.38%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 48.02%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.68%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 86.77%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.56%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 61.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 15.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.02%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.13%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.45%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 75.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.53%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 8.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.53%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 12.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.06%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.41%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.38%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 59.13%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.56%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.37%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 39.97%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 74.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.36%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.87%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 67.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.50%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.44%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 56.98%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.42%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.15%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 16.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 60.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.56%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.22%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 33.34%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 52.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.60%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 84.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 27.36%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.69%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.55%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.04%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 13.77%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 86.59%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.81%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 41.29%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.13%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.60%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 55.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.12%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.21%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.00%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.45%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.34%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 29.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.54%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 60.91%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.63%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.26%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 15.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 57.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.98%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.50%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 19.63%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 66.97%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.29%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.44%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.31%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 75.91%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 16.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.34%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.45%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 42.49%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 12.37%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.26%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 76.06%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 81.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 71.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.63%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.56%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 60.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 68.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 38.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 50.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 65.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.77%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 81.93%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.36%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.48%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 24.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 59.50%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.17%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.29%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 68.02%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 54.53%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 21.87%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 84.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.97%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.36%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 63.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.85%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 34.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 73.15%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.42%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.37%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 25.42%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 98.02%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.77%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 84.55%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.19%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 66.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 52.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 29.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 35.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 14.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.45%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.41%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 37.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 85.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 69.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.91%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 20.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.83%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.86%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.25%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.95%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.17%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.56%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 82.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 8.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.21%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 22.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.77%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.12%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.87%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.48%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.33%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 35.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.06%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 80.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 56.77%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.68%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.29%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.60%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.73%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 48.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.37%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 43.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.55%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.19%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 20.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.06%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 24.19%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.64%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 69.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 49.97%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.36%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 86.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.70%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 8.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 30.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 63.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 88.88%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.37%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.19%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 38.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 45.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.41%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.80%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.12%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.62%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.01%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 65.87%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.69%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 54.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 21.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.47%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.26%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 13.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 14.42%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.92%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.32%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 98.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 75.76%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 83.49%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 63.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.88%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 12.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 55.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.89%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.81%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.58%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.22%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 26.15%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 61.51%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.40%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.50%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 94.78%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 80.03%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 35.05%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.08%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.00%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.20%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 72.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.53%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.74%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.84%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.39%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.23%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 72.19%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 43.18%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 85.54%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 62.45%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 23.68%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.38%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.47%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.98%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 90.95%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.04%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 42.31%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 70.94%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.42%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 91.14%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.81%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 78.06%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 89.22%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.59%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.93%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.60%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.81%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.57%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.79%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.62%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 4, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 92.24%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 64, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.34%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.90%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 26.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.49%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 40.60%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 5, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.10%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 93.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.09%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 2, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 19.96%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 70.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 512, 'nb_layers': 6, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 87.66%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.001, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.27%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'ELU', 'optimizer': 'rmsprop', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 63.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.48%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.41%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.01, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 69.43%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 6, 'activation': 'LeakyReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 86.67%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 640, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.99%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'linear', 'initial_lr': 0.01, 'batch_size': 64, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.46%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 128, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.82%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.16%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 5, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 2, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.23%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'LeakyReLU', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.001, 'batch_size': 128, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 9.72%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 128, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.28%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'ELU', 'optimizer': 'sgd', 'lr_scheduler': 'cosine', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.61%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 4, 'activation': 'Tanh', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.3}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 11.35%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 384, 'nb_layers': 5, 'activation': 'Tanh', 'optimizer': 'adamw', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.48%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 3, 'activation': 'Sigmoid', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.62%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'Sigmoid', 'optimizer': 'adam', 'lr_scheduler': 'linear', 'initial_lr': 0.1, 'batch_size': 32, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 10.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 6, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'exponential', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 32.81%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 3, 'activation': 'Tanh', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.1, 'batch_size': 64, 'dropout': 0.1}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 64.11%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'sgd', 'lr_scheduler': 'none', 'initial_lr': 0.01, 'batch_size': 32, 'dropout': 0.2}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 96.07%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 896, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adam', 'lr_scheduler': 'none', 'initial_lr': 0.0003, 'batch_size': 256, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.52%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 768, 'nb_layers': 1, 'activation': 'LeakyReLU', 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'initial_lr': 0.1, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 79.75%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 128, 'nb_layers': 4, 'activation': 'Sigmoid', 'optimizer': 'rmsprop', 'lr_scheduler': 'none', 'initial_lr': 0.0001, 'batch_size': 256, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 40.65%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 6, 'activation': 'ReLU', 'optimizer': 'rmsprop', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 97.71%
+01/14/2024 01:29:21 PM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'ReLU', 'optimizer': 'adamw', 'lr_scheduler': 'linear', 'initial_lr': 0.0003, 'batch_size': 32, 'dropout': 0.4}
+01/14/2024 01:29:21 PM - INFO - Network accuracy: 95.52%

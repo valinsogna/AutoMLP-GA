@@ -82,7 +82,7 @@ def train_and_score(network, dataset, debug=False):
             optimizer.zero_grad()
 
             outputs = model(inputs)
-            loss = criterion(outputs, labels)
+            loss = criterion(outputs, labels) # CrossEntropyLoss
             loss.backward()
             optimizer.step()
 
